@@ -7,10 +7,10 @@ using YouTubeSearch;
 
 namespace MAYoutubeDownload.Controllers
 {
-    public class DownloadController : Controller
+    public class YoutubeController : Controller
     {
         // GET: /<controller>/
-        public IActionResult Video(string url)
+        public IActionResult Info(string url)
         {
             try
             {
